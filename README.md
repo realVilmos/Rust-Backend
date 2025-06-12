@@ -10,8 +10,7 @@ Plans:
   - Data Processing:
       - Tied to Data Sources.
       - Polars will handle the calculations.
-  - Visualization Pipeline to be defined. For now some ideas:
-    The above Data Processing and Data Sources should be flexible enough for this to be decided later.
+  - Visualization Pipeline to be defined. The above Data Processing and Data Sources should be flexible enough for this to be decided later. For now some ideas:
         - Pivoting for visualizations from tables.
         - Allow the independently stored variables to be queried if needed to visualized.
         - If truly independent and need to be on a chart, have to introduce multiple axis, synced axis. Everything depends on what will be the visualization library.
