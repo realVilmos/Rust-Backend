@@ -1,0 +1,22 @@
+[package]
+name = "Rust-Backend"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+polars = { version = "0.38", features = ["lazy", "csv-file"] }
+actix-web = "4.11.0"
+diesel = {version = "2.2.2", features = ["r2d2", "postgres"]}
+dotenv = "0.15.0"
+env_logger = "0.11.5"
+r2d2 = "0.8.10"
+serde = {version = "1.0.208", features = ["derive"]}
+log = "0.4.22"
+jsonwebtoken = "9.3.1"
+actix-cors = "0.7.1"
+sha2 = "0.11.0-pre.4"
+hex = "0.4.3"
+chrono = "0.4.38"
+regex = "1.11.1"
+bcrypt = "0.17.0"
+serde_json = "1.0.140"
